@@ -13,7 +13,7 @@ public class actions {
 		System.setProperty("webdriver.crome.driver", "D:/HeereshJ/OneDrive/OneDrive - Quinnox Consultancy Services LtdDocuments/chrome.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.flipkart.com");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.getTitle();
 		System.out.println(driver.getTitle());
