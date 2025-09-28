@@ -1,0 +1,353 @@
+package Test;
+
+public class Logic {
+	
+	𝗖𝗹𝗶𝗲𝗻𝘁 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀: 
+		1. Can you describe your current project and explain its main components?
+		2. Which automation framework are you using in your project? Please provide details.
+		3. What is the Page Object Model (POM), and why is the object repository used in POM?
+		4. Can you explain the purpose of the Robot class in Selenium?
+		5. Why is Page Factory used in object repositories?
+		6. How do you launch Internet Explorer in Selenium WebDriver?
+		7. How do you use the Select class in Selenium for handling dropdowns?
+		8. How do you work with frames in Selenium? How many ways can you pass values to frames?
+		9. Can you explain the use of XPath and sibling elements in XPath?
+		10. What is the difference between implicit wait and explicit wait in Selenium? Could you also provide the syntax?
+		11. Could you write a program for taking a screenshot in Selenium?
+
+
+
+		hashtag#𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 𝐁𝐚𝐬𝐢𝐜𝐬
+
+		1. What is an automation framework? Why do we need it?
+		2. Explain different types of automation frameworks (Data-Driven, Keyword-Driven, Hybrid, BDD, Modular, POM).
+		3. What is the difference between a framework and a library/tool like Selenium or Playwright?
+		4. Can you explain the architecture of your current automation framework?
+		5. What are the key components of a robust automation framework?
+
+		hashtag#𝐃𝐞𝐬𝐢𝐠𝐧 & 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞
+
+		6. How do you structure test cases, test data, utilities, and reports in your framework?
+		7. What is Page Object Model (POM)? Why is it used in frameworks?
+		8. How do you implement reusable components in your framework?
+		9. What is the role of TestNG/JUnit (Java) or Mocha/Jest (JS) in your framework architecture?
+		10. How do you manage configurations (URLs, credentials, environment variables) in your framework?
+
+		hashtag#𝐃𝐚𝐭𝐚 𝐇𝐚𝐧𝐝𝐥𝐢𝐧𝐠
+
+		11. How do you handle test data in your framework? (Excel, JSON, CSV, DB, Faker)
+		12. What is Data-Driven Testing? How did you implement it?
+		13. How do you manage test data for different environments (QA, UAT, Prod)?
+
+		hashtag#𝐒𝐜𝐚𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 & 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞
+
+		14. How do you ensure your framework is scalable and easy to maintain?
+		15. How do you handle dynamic elements and frequently changing locators?
+		16. What self-healing or fallback strategies have you implemented in your framework?
+		17. How do you manage dependencies between test cases in your framework?
+
+		hashtag#𝐑𝐞𝐩𝐨𝐫𝐭𝐢𝐧𝐠 & 𝐋𝐨𝐠𝐬
+
+		18. How do you generate test execution reports? (ExtentReports, Allure, custom reporting)
+		19. How do you capture logs and screenshots for failures in your framework?
+		20. How do you implement logging (e.g., Log4j, slf4j, Winston for JS) in your framework?
+
+		hashtag#𝐂𝐈/𝐂𝐃 & 𝐄𝐱𝐞𝐜𝐮𝐭𝐢𝐨𝐧
+
+		21. How do you integrate your framework with CI/CD pipelines (Jenkins, GitHub Actions, GitLab CI)?
+		22. How do you handle parallel test execution and cross-browser testing?
+		23. How do you run tests in Docker or Selenium Grid / Playwright Grid / cloud platforms (BrowserStack, LambdaTest)?
+
+		hashtag#𝐁𝐞𝐬𝐭 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞𝐬 & 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬
+
+		24. What challenges did you face while designing a framework, and how did you overcome them?
+		25. If you were to build a framework from scratch today, what steps would you follow?
+
+
+		𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 𝐚𝐧𝐝 𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭 - 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 9𝙩𝙝 𝙊𝙘𝙩𝙤𝙗𝙚𝙧! Register Now for Free Demo Classes: https://lnkd.in/gaKSkQRj
+		OR
+
+		1. Introduce yourself.
+		2. Difference between Smoke and Sanity Testing?
+		3. What is the defect life cycle?
+		4. How do you prioritize your test cases?
+		5. Explain the WebDriver instantiation process.
+		6. What is the use of the WebDriverManager?
+		7. Types of waits in Selenium?
+		8. Code snippet for Explicit Wait?
+		9. Code snippet for Drag and Drop in Selenium?
+		10. Code for taking a screenshot in Selenium?
+		11. How do you switch between multiple windows?
+		12. Why is SET used with window handles?
+		13. Annotations used in TestNG?
+		14. How do you rerun failed test cases?
+		15. How do you rerun a single test case repeatedly?
+		16. What is the role of listeners in TestNG?
+		17. What’s inside the Runner File in Cucumber?
+		18. How do you run test cases in parallel using Cucumber?
+		19. Scenario vs. Scenario Outline in Cucumber?
+		20. How to pass test data to Selenium scripts?
+		21. Explain the Maven Lifecycle.
+		22. Explain your Automation Framework and its components.
+		23. What is a Page Object Model (POM)?
+		24. Advantages and disadvantages of POM?
+		25. How do you integrate Jenkins with Selenium?
+
+
+		#TestNG concepts with Storytelling:
+
+		1. @Test: This is where the magic begins. The '@Test' annotation marks a method as a test case, setting the stage for automated validation in our testing journey.
+
+		2. @BeforeMethod: Like a warm-up before the big game, this method runs before each test, preparing the environment with fresh energy and prerequisite conditions.
+
+		3. @AfterMethod: After every adventure, there must be cleanup. This method ensures that post-test rituals like closing browsers or logging results are properly performed.
+
+		4. @BeforeClass: Think of this as setting up the testing laboratory. It runs once before any test methods in the current class -- perfect for initializing WebDriver or loading configs.
+
+		5. @AfterClass: The final chapter in a test class. This method executes after all tests in the class have run, helping us release resources and restore calm.
+
+		6. @BeforeSuite: The opening act of the entire suite. This method kicks off before any test in the suite begins -- ideal for global setup like database connections or report initialization.
+
+		7. @AfterSuite: The curtain call. This runs once after all tests across all classes and packages -- usually for report generation, database teardown, or final logs.
+
+		8. @Parameters: Like passing secret messages, this annotation allows test methods to receive external values from TestNG XML, enabling data-driven magic.
+
+		9. @DataProvider: A treasure chest of test data. This annotation enables parameterized testing by providing multiple data sets to a test method.
+
+		10. priority: When order matters, 'priority' steps in. It lets us control the sequence of test method execution, ensuring the right story unfolds first.
+
+		11. enabled = false: Sometimes we pause a test -- without deleting it. This attribute lets us temporarily disable a test method, putting it on standby.
+
+		12. groups: Organize your testing army! Grouping lets us cluster tests under meaningful tags -- regression, smoke, sanity -- and execute them in logical packs.
+
+		13. invocationCount: When one test is not enough, this attribute repeats the test method multiple times -- like a looped rehearsal ensuring stability and consistency.
+
+		14. Assert.assertEquals(actual, expected): The heart of validation. This assertion checks if the actual output matches what we hoped for -- a loyal guardian of correctness.
+
+		15. Assert.assertTrue(condition): Like a gatekeeper, this assertion ensures that a condition holds true, allowing the test to proceed only if logic aligns.
+
+		16. SoftAssert: Unlike the strict older sibling 'Assert', 'SoftAssert' allows multiple checks to run before reporting all failures together -- perfect for comprehensive verifications in a single test.
+
+
+		𝗤𝗔 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 – 𝗖𝗮𝗽𝗴𝗲𝗺𝗶𝗻𝗶 
+
+		1. Explain Java exception handling and its importance.
+		2. What is the difference between `final`, `finally`, and `finalize` keywords in Java?
+		3. Compare and contrast `ArrayList` and `LinkedList` in Java.
+		4. What are the key differences between `HashSet` and `Map` in Java?
+		5. Provide an example of using a `Map` in Java.
+		6. Write a Java program to reverse a string.
+		7. Explain the architecture of Appium and how it functions.
+		8. What are Desired Capabilities in Appium, and how are they used?
+		9. What is an Appium package and activity, and how are they configured?
+		10. Why is Appium preferred for mobile automation testing?
+		11. How do you handle timeouts in Appium tests?
+		12. What challenges have you encountered while using Appium, and how did you overcome them?
+		13. What are the different types of locators used in Appium?
+		14. What are the best practices to follow when using Appium for automation?
+		15. What is the difference between `findElement` and `findElements` in Appium/Selenium?
+		16. Explain the concept of Appium Grid and its use cases.
+		17. What is the purpose of `BeforeSuite` and `AfterSuite` annotations in TestNG?
+		18. Explain the structure and purpose of a TestNG XML file.
+		19. How does `dependsOnMethods` work in TestNG, and when would you use it?
+		20. What are the different types of waits available in Selenium, and when should each be used?
+		21. Explain the role of Jenkins in CI/CD pipelines.
+		22. How are reports generated in TestNG, and what types of reports can be produced?
+		23. What is the difference between method overloading and method overriding in Java?
+		24. Explain the concept of polymorphism in Java and provide examples.
+
+
+		#Java Programming 
+
+		1. Occurrences of characters in a string
+		2. Fibonacci series program
+		3. Print even numbers in an array → `{2,4,6}`
+		4. Reverse a string using `StringBuilder`
+		5. Check if a number is a palindrome
+		6. Remove duplicate letters from a string
+		7. Bubble sort algorithm
+		8. Transform `'My name is so and so'` → `'{My-name-is-so-and-so}'`
+
+		hashtag#Framework & Tools
+
+		1. Explain the structure of an automation framework
+		2. How to connect files in Cucumber? What are hooks?
+		3. How to run flaky test cases? (with code)
+		4. Maven lifecycle?
+		5. Jenkins – how to run jobs?
+		6. Git: merge vs rebase? Handling merge conflicts?
+		7. Git commands you have used
+
+		hashtag#OOPs & Java Concepts
+
+		1. Abstract class vs Abstract method
+		2. Abstract class vs Interface
+		3. Instance variables
+		4. OOP concepts and where you applied them in a framework
+
+
+		𝗖𝗼𝗿𝗲 𝗝𝗮𝘃𝗮 (𝗳𝗼𝗿 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻)
+
+		→ Difference between abstract class and interface?
+		→ Explain OOPs concepts with real examples.
+		→ How does HashMap work internally?
+		→ What is the difference between final, finally, and finalize?
+		→ How does Garbage Collection work in Java?
+		→ Overloading vs Overriding in Selenium framework?
+		→ Difference between String, StringBuffer, and StringBuilder.
+		→ Exception handling best practices in Java.
+		→ Why is immutability important in Java?
+		→ How do you handle synchronization in multi-threading?
+
+		𝗦𝗲𝗹𝗲𝗻𝗶𝘂𝗺 𝗮𝗻𝗱 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻
+
+		→ Difference between findElement and findElements.
+		→ What are different types of waits in Selenium?
+		→ Explain Page Object Model (POM).
+		→ How do you handle dynamic web elements?
+		→ How do you capture screenshots on failure?
+		→ Difference between quit() and close().
+		→ How to handle multiple windows/tabs?
+		→ How to execute failed test cases in TestNG?
+		→ What are Selenium Grid and parallel execution?
+		→ Explain different types of locators in Selenium.
+
+		𝗔𝗣𝗜 𝗧𝗲𝘀𝘁𝗶𝗻𝗴 (𝗥𝗲𝘀𝘁 𝗔𝘀𝘀𝘂𝗿𝗲𝗱 / 𝗣𝗼𝘀𝘁𝗺𝗮𝗻)
+
+		→ What is the difference between PUT and PATCH?
+		→ How do you validate JSON schema in Rest Assured?
+		→ Explain authentication types (Basic, OAuth, Bearer token).
+		→ How do you test APIs in Postman with data-driven approach?
+		→ What’s the difference between SOAP and REST APIs?
+		→ How to validate response time in API automation?
+		→ How do you handle API response codes in automation framework?
+
+		𝗧𝗲𝘀𝘁𝗡𝗚 / 𝗕𝗗𝗗 𝗖𝘂𝗰𝘂𝗺𝗯𝗲𝗿
+
+		→ Difference between @BeforeTest and @BeforeMethod.
+		→ How do you generate Extent/Allure reports?
+		→ What is the use of hooks in Cucumber?
+		→ How do you integrate Cucumber with TestNG?
+		→ Explain DataProvider and Scenario Outline.
+
+		𝗦𝗤𝗟 & 𝗗𝗦𝗔 (𝗳𝗼𝗿 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀)
+
+		→ Write query to find 2nd highest salary.
+		→ What are joins and their types?
+		→ ACID properties in DB.
+		→ Detect cycle in a linked list (DSA).
+		→ Find longest palindrome substring.
+
+		These questions test your concepts. But to crack top product companies:
+
+		→ Build frameworks from scratch
+		→ Write clean automation code
+		→ Work on problem-solving & scalability 
+
+		RestAssured Interview Questions for SDET
+
+		✅ Beginner to Intermediate:
+		1. What is RestAssured and why do we use it in API automation?
+		2. How do you validate a status code and response body using RestAssured?
+		3. How do you pass query parameters, path parameters, and headers in RestAssured?
+		4. How do you send a POST request with a JSON payload using RestAssured?
+		5. How do you validate JSON response data using JSONPath in RestAssured?
+		6. How do you handle authentication (Basic, OAuth2) in RestAssured?
+		7. What is the difference between then(), extract(), and assertThat() in RestAssured?
+		8. How can you log the request and response in RestAssured?
+		9. How do you set up reusable request/response specifications in RestAssured?
+		10. How do you validate response time using RestAssured?
+
+		✅ Advanced:
+		1. How do you handle dynamic JSON values in response validation?
+		2. What are Filters in RestAssured and how do you use them?
+		3. How can you integrate RestAssured with TestNG/JUnit?
+		4. How do you create a custom deserializer for a complex JSON response?
+		5. How do you validate XML responses in RestAssured?
+		6. How do you extract a response as a POJO using Jackson/Gson?
+		7. How do you handle file uploads and downloads using RestAssured?
+		8. How do you perform chained API calls using RestAssured?
+		9. How do you implement data-driven API tests in RestAssured?
+
+		#Pwc Automation Testing Interview Questions 👇
+
+		1. How would you design a scalable Selenium automation framework using Java and TestNG?
+		2. How do you handle dynamic web elements that change IDs every time the page loads?
+		3. Explain the Page Object Model (POM). Can you write a sample class for a login page?
+		4. How do you manage test execution across different browsers and environments?
+		5. What is your approach for running parallel test cases using TestNG?
+		6. How do you capture screenshots for failed test cases and attach them to Extent Reports?
+		7. Can you automate file upload/download scenarios using Selenium?
+		8. How do you perform API testing? Have you worked with Rest Assured or Postman automation?
+		9. What are the different waits in Selenium? When would you use each one?
+		10. How do you handle alerts, popups, and iframe elements during automation?
+		11. How do you validate a JSON response from an API in Java?
+		12. What's the difference between Jenkins freestyle job and pipeline?
+		13. Can you write a Java program to reverse a string or check for a palindrome?
+		14. What's your approach to debugging flaky or intermittent test failures?
+		15. How do you integrate your automation suite with CI tools like Jenkins or GitHub Actions?
+		16. Explain your experience with data-driven testing using Excel/CSV/JSON files.
+		17. How do you ensure your test scripts are maintainable and reusable in the long run?
+		10. How do you test APIs with token refresh logic using RestAssured?
+				
+				
+				
+				
+				import java.util.ArrayList;
+		public class Exercise {
+		    
+		    public static void main(String[] args) {
+		    ArrayList<String> a = new ArrayList<String>();
+		    a.add("aaple");
+		    a.add("banana");
+		    a.add("cherry");
+		    a.add("mango");
+		    a.add("apple");
+		    System.out.println(a);
+		    a.remove(0);
+		    System.out.println(a);
+		    System.out.println(a.contains("orange"));
+		    System.out.println(a.size());
+		    for(int i=0; i<=a.size(); i++)
+		    {
+		        System.out.println(a.get(i));
+		    }
+		}
+		}
+		
+		
+		Auth Token
+		public void getTokenAndUseInAnotherApi() {
+		        // Base URI optional
+		        RestAssured.baseURI = "https://sso-stg.qyrus.com";
+
+		        // 1) Request token from auth endpoint
+		        Response authResp =
+		            given()
+		                .contentType("application/json")
+		                .body("grant_type=password&username=qyrusautomationuser31@outlook.com&password=Password@123&client_id=ui&scope=openid profile email") // adapt payload
+		            .when()
+		                .post("/realms/staging/protocol/openid-connect/token")
+		            .then()
+		                .statusCode(200)
+		                .extract().response();
+
+		        // Extract token (adjust path if token JSON key differs)
+		        String token = authResp.jsonPath().getString("access_token");
+		        // defensive check
+		        if (token == null || token.isEmpty()) {
+		            throw new IllegalStateException("Token not found in auth response: " + authResp.asString());
+		        }
+
+		        // 2) Use token in another API call
+		        given()
+		            .header("Authorization", "Bearer " + token)
+		            .accept("application/json")
+		        .when()
+		            .get("/protected/resource")
+		        .then()
+		            .statusCode(200)
+		            .body("data.id", notNullValue()); // example assertionfk
+		    }
+
+}
