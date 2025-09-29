@@ -28,20 +28,21 @@ public class TokenChainTest {
         
         	
         // Extract token (adjust path if token JSON key differs)
-        //String token = authResp.jsonPath().getString("access_token");
+        String token = authResp.jsonPath().getString("access_token");
         // defensive check
-       // if (token == null || token.isEmpty()) {
-       //    throw new IllegalStateException("Token not found in auth response: " + authResp.asString());
-       // }
+        if (token == null || token.isEmpty()) {
+           throw new IllegalStateException("Token not found in auth response: " + authResp.asString());
+        }
 
         // 2) Use token in another API call
-        //given()
-         //   .header("Authorization", "Bearer " + token)
-         //   .accept("application/json")
-       // .when()
-        //    .get("/protected/resource")
-       // .then()
-         //   .statusCode(200)
-           // .body("data.id", notNullValue()); // example assertion
-    //}
+        given()
+          .header("Authorization", "Bearer " + token)
+          .accept("application/json")
+       .when()
+           .get("/protected/resource")
+        .then()
+           .statusCode(200)
+            .body("data.id", notNullValue()); // example assertion
+    }
+
 }
